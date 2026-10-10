@@ -43,3 +43,19 @@ Output:
 
 Question 8:The first seven characters are called the short commit hash (or SHA-1 hash). They serve as a unique identifier for that specific commit, allowing you to reference it in the project's history.
 Output:50d23ee
+
+Question 9:The four steps of the loop are editing or creating a file, checking the repository's state with git status, moving the changes to the staging area with git add, and saving them to the history with git commit. Running git log is often done afterward to verify the new commit was added to the timeline.
+
+Question 10: README.md is a universal convention across software development and platforms like GitHub. GitHub automatically parses and displays the contents of README.md on the front page of the repository, serving as the landing page and overview for anyone viewing the project.
+
+Question 11:
+The gh auth login command authenticated your terminal with GitHub using a secure web token instead of a traditional password. By selecting "Yes (authenticate Git)" during the setup, it configured Git to use the GitHub CLI as a credential helper, which automatically provides this stored token in the background whenever you push.
+
+Question 12:
+The front page now displays the rendered contents of your README.md file. GitHub is designed to automatically detect and display the README file at the root of a repository so visitors immediately see the project's overview and instructions.
+
+Question 13:
+No, pushing does not change your local commit history. It simply copies your local commits to the remote repository on GitHub and updates your local Git's awareness of where the remote branch (origin/main) currently sits.
+
+Question 14:
+A private repository exists on GitHub's servers and is accessible to you and any specific users you explicitly invite as collaborators, such as your TAs. If a repository does not exist on GitHub at all, it only lives locally on your computer's hard drive and cannot be viewed, shared, or backed up online.
