@@ -1,0 +1,54 @@
+    1  cd~
+    2  cd ~
+    3  pwd
+    4  cd ~
+    5  pwd
+    6  cmd
+    7  cd ~
+    8  pwd
+    9  ls
+   10  ls -a
+   11  ls -l
+   12  cd ~
+   13  mkdir coding-cafe
+   14  cd coding-cafe
+   15  mkdir week01
+   16  mkdir week02
+   17  touch week02/notes.md
+   18  touch README.md
+   19  ls coding-cafe/week02
+   20  cd ~
+   21  ls coding-cafe/week02
+   22  code week02/notes.md
+   23  cp README.md README-backup.md
+   24  cd coding-cafe
+   25  cp README.md README-backup.md
+   26  what does that mean
+   27  code week02/notes.md
+   28  mv README-backup.md week01/
+   29  cd week01
+   30  mv README-backup.md old-readme.md
+   31  ls
+   32  rm old-readme.md
+   33  echo $PATH
+   34  which python3
+   35  which pip
+   36  which ls
+   37  cd ~/coding-cafe
+   38  python3 -m venv .venv
+   39  cd ~
+   40  sudo apt install python3.14-venv
+   41  sudo apt update
+   42  sudo apt install python3-venv
+   43  source .venv/bin/activate
+   44  cd ~/coding-cafe
+   45  python3 -m venv .venv
+   46  source .venv/bin/activate
+   47  pip list
+   48  pip install requests
+   49  pip list
+   50  deactivate
+   51  man ls
+   52  man man
+   53  python3
+   54  history > week02/lab01-log.txt
